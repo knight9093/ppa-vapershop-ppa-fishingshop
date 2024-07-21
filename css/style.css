@@ -808,7 +808,7 @@ a:focus {
 
 body {
   display: grid;
-  place-items: center;
+  place-items: bottom;
   min-height: 50vh;
 }
 
