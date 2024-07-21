@@ -825,8 +825,8 @@ li {
 }
 
 img {
-  max-width: 100%;
-  width: 100%;
+  max-width: 50%;
+  width: 50%;
   object-fit: cover;
   transition: all 0.2s ease;
 }
