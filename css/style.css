@@ -816,8 +816,8 @@ body{
 
 .gallery{
   position:relative;
-  width:100px;
-  height:50px;
+  width:150px;
+  height:100px;
   transform-style:preserve-3d;
   animation:rotate 35s linear infinite;
 }
