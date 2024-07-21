@@ -745,75 +745,61 @@ a:focus {
 }
 
 /* end contact section */
-html,body{
-  width: 20%;
-  height: 20%;
-}
-
-.container{
-  padding: 75px 0;
-  margin: 0 auto;
-  width: 1140px;
-}
-
-h1{
-  position: relative;
-  margin-bottom: 45px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 44px;
-  text-transform: uppercase;
-  color: #424242;
-}
-
-.gallery-wrap {
+.team_section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  margin-top: 45px;
+  position: relative;
+}
+
+.team_section .box .img-box {
   width: 100%;
-  height: 70vh;
 }
 
-.item {
-  flex: 1;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: none;
-  transition: flex 0.8s ease;
-  
-  &:hover{
-    flex: 7;
-  }
+.team_section .box .img-box img {
+  width: 100%;
 }
 
-.item-1 { 
-  background-image: url('https://images.unsplash.com/photo-1499198116522-4a6235013d63?auto=format&fit=crop&w=1233&q=80');
-}
-
-.item-2 { 
-  background-image: url('https://images.unsplash.com/photo-1492760864391-753aaae87234?auto=format&fit=crop&w=1336&q=80');
-}
-
-.item-3 { 
-  background-image: url('https://images.unsplash.com/photo-1503631285924-e1544dce8b28?auto=format&fit=crop&w=1234&q=80');
-}
-
-.item-4 { 
-  background-image: url('https://images.unsplash.com/photo-1510425463958-dcced28da480?auto=format&fit=crop&w=1352&q=80');
-}
-
-.item-5 { 
-  background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1234&q=80');
-}
-
-.social{
+.team_section .box .detail-box {
   position: absolute;
-  right: 35px;
+  width: 100%;
+  color: #ffffff;
+  padding: 25px 15px;
+  text-align: center;
   bottom: 0;
-  
-  img{
-    display: block;
-    width: 32px;
-  }
+  background-color: rgba(28, 28, 28, 0.75);
+}
+
+.team_section .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+}
+
+.team_section .btn-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #f1db25;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+}
+
+.team_section .btn-box a:hover {
+  background-color: transparent;
+  border-color: #f1db25;
+  color: #f1db25;
 }
 .info_section {
   background-color: #101010;
