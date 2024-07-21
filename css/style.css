@@ -808,7 +808,7 @@ a:focus {
 
 body{
   margin:0;
-  height:100vh;
+  height:150vh;
   display:grid;
   place-items:center;
   background-color:#010101;
